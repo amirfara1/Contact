@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Box"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:textColor="@color/pink"
+        android:textStyle="bold"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profile1"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="amir"
+
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="farahani"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="+98 922****"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="android developer"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Write some comments about..."
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
